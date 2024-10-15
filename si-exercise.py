@@ -22,7 +22,6 @@ def collectLegoSets(startURL):
 
     a = [i for i in parsed.find_all('article')]
 
-
     newData = []
 
     for i in a:
